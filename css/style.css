@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	background-image: url(../img/back2.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block_opacity{
+	height: 2790px;
+	width: 56%;
+	background: rgb(255, 255, 255, .5);
+}
+.block_opacity h1:nth-of-type(1) {
+	text-align: center;
+}
+.title_block{
+	color: rgba(101, 61, 0, 1);
+	font-size: 30px;
+}
+.title_item{
+	height: 130px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	height: 150px;
+	align-items: center;
+}
+.nav_item{
+	background: rgba(179, 121, 89, 1);
+	font-size: 30px;
+	text-color: black;
+	height: 50px;
+	width: 200px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rectangle_block{
+	display: flex;
+	justify-content: center;
+}
+.rectangle_item{
+	background: #653D00;
+	width: 980px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.image_block{
+	width: 940px;
+	height: 360px;
+	background-image: url(../img/sun1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 30px;
+}
+.kvadrat_block{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 330px;
+}
+.kvadrat1_item{
+	height: 282px;
+	width: 300px;
+	background: #653D00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kyb_item__img1{
+	width: 259px;
+	height: 240px;
+	background-image: url(../img/tree.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+	
+}
+h3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+.kvadrat2_item{
+	height: 282px;
+	width: 300px;
+	background: #653D00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kyb_item__img2{
+	width: 259px;
+	height: 240px;
+	background-image: url(../img/i_fish.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+}
+.kvadrat3_item{
+	height: 282px;
+	width: 300px;
+	background: #653D00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kyb_item__img3{
+	width: 259px;
+	height: 240px;
+	background-image: url(../img/i_helmet.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 25px;
+}
+.kvadrat_reverse_block{
+	display: flex;
+	justify-content: center;
+}
+.kvadrat_reverse_item{
+	background: #653D00;
+	width: 982px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kvadrat_reverse_item__img{
+	width: 940px;
+	height: 360px;
+	background-image: url(../img/sea.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 25px;
+}
+.kvadrat_reverse_item__img h2:nth-of-type(1) {
+	transform: rotate(180deg);
+}
+.paragraph_block{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 95%;
+	height: 10%;
+}
+
+.paragraph_item_text{
+	width: 100%;
+	text-indent: 0%;
+	color: #653D00;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.title_block2{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: #653D00;
+	font-size: 35px;
+}
+section{
+	width: 100%;
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.section_item{
+	width: 28%;
+	background: #653D00;
+	border: 20px solid #653D00;
+}
+.section_item_img{
+	height: 443px;
+}
+.section_item_text{
+	height: 282px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 30px;
+}
+.box_opacity{
+	background: rgb(102, 72, 25, 0.4);
+	width: 20%;
+	height: 100%;
+}
+.box_opacity1{
+	background: rgb(102, 72, 25, 0.4);
+	width: 100%;
+	height: 12%;
+}
+.box_opacity2{
+	background: rgb(102, 72, 25, 0.4);
+	width: 20%;
+	height: 100%;
+}
+.section_item_img:nth-child(1) {
+	background-image: url(../img/moto.jpg);
+	background-size: cover;
+}
+.section_item_img:nth-child(4) {
+	background-image: url(../img/python.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+}
+.section_item_img:nth-child(5) {
+	background-image: url(../img/fish.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+}
+footer{
+	height: 200	px;
+	width: 100%;
+	background: #653D00;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.footer_box{
+	height: 100%;
+	width: 33%;
+	background: red
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.footer_item{
+	height: 50px;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+}
+.footer_item__img{
+	background-image: url(../img/camera.jpg);
+	width: 152px;
+	height: 227px;
+}
